@@ -11,6 +11,7 @@ import SidebarChats from './SidebarChats';
 function Sidebar() {
   return (
     <div className='sidebar'>
+        {/* header */}
         <div className='sidebar-header'>
           <Avatar src="https://avatars.githubusercontent.com/u/78143404?v=4"/>
           <div className='sidebar-headerRight'>
@@ -25,12 +26,14 @@ function Sidebar() {
             </IconButton>
           </div>
         </div>
+        {/* Search bar */}
         <div className='sidebar-search'>
             <div className='sidebar-searchContainer'>
                 <SearchIcon/>
                 <input placeholder='Search or start new chat' type="text"/>
             </div>
         </div>
+        {/* sidebar chats component*/}
         <div className='sidebar-chats'>
             <SidebarChats/>
             <SidebarChats/>

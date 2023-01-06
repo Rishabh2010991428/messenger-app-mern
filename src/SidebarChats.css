@@ -7,4 +7,14 @@
 
 .sidebarChat :hover {
     background-color: lightgray;
+    transition: 1s;
+}
+
+.sidebarChat-info > h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sidebarChat-info{
+    margin-left: 15px;
 }
