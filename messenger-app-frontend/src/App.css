@@ -3,13 +3,14 @@
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: rgb(122, 136, 136);
+  background-color: rgb(13, 46, 18);
 }
 
 .app-body{
   display: flex;
   background-color: rgb(255, 255, 255);
-  /* margin-top: -50px; */
+  /* correction can be done */
+  margin-top: -50px;
   height: 90vh;
   width: 90vw;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);

@@ -35,9 +35,9 @@ function Sidebar() {
         </div>
         {/* sidebar chats component*/}
         <div className='sidebar-chats'>
-            <SidebarChats/>
-            <SidebarChats/>
-            <SidebarChats/>
+            <SidebarChats name="CHITKARA UNIVERSITY" url="https://tse4.explicit.bing.net/th?id=OIP.AtrUvSeJKsIJe4AhQc9YSgHaHa&pid=Api&P=0"/>
+            <SidebarChats name="NOTICE" url="https://tse4.mm.bing.net/th?id=OIP.CgHujB6FtEFHmObFqDJjVQHaES&pid=Api&P=0"/>
+            <SidebarChats name="FAMILY GROUP" url="https://tse4.mm.bing.net/th?id=OIP.NIhRvAFmlgGQLNwo9SxbNAHaEn&pid=Api&P=0"/>
         </div>
     </div>
   )
